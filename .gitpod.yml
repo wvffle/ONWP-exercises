@@ -4,7 +4,7 @@ tasks:
       pip install -r "requirements.txt";
     command: >
       pip install -r "requirements.txt";
-      jupyter notebook --NotebookApp.allow_origin=\'$(gp url 8888)\'
+      # jupyter notebook --NotebookApp.allow_origin=\'$(gp url 8888)\'
 
 ports:
   - port: 9000-9099
